@@ -1,0 +1,16 @@
+/opt/tuniu/apache2/bin/apachectl restart linux下apache重启的命令
+
+流量本身就是钱，导到那里都是赚钱，为什么要导到你那边呢
+
+创业的时候要多用产品的思维去想而不是程序员的思维
+
+JS只能输入正整数<input id="lowPrice" class="priTxt" type="text" method="lowPrice" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}">
+
+业务增长，给你的网站带来用户和流量，那随之机器负载就上去了，要不要做监控？要不要做负载均衡？
+用户复杂了，要不要做多浏览器兼容？要不要做CDN？数据量大了，要不要做分布？垂直分还是横向分？
+系统瓶颈在哪里？优化IO还是优化网络？整个系统复杂度上去了，成本怎么降低？你的能力在哪里？
+收入不变，算法优化一下成本降低20%，老板高不高兴？给不给你加工资？成本类的潜力挖掘殆尽，那收入类的挖掘完了没有？
+我们知不知道用户喜欢我们网站上的什么功能？用户喜欢的是不是有价值的？这些有价值的我们能不能做？统计，分析，转化，挖掘，关联分析，这些手段用熟了没？
+我们的业务大了，被同行记恨，被黑客敲诈，恶意用户横行，怎么保障业务安全？如何防DDOS，CSRF，跨站脚本攻击，DNS劫持？
+
+Yslow地址：https://developer.yahoo.com/yslow/
