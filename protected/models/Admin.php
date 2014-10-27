@@ -1,6 +1,12 @@
 <?php
 class Admin extends BaseModel {
-
+    
+      //多数据库的配置方法
+//    public function getDbConnection() {       
+//
+//          return Yii::app()->db_member;  
+//    }  
+    
     public static function model($className = __CLASS__) {
         return parent::model($className);
     }
