@@ -310,4 +310,235 @@ JS 作用域的关系
 header 之前不能有输出的
 
 CAS单点登录sso
-服务层，数据层 系统
+服务层，数据层 缓存管理 系统
+
+linux 命令 top
+netstat -pnt | grep :80 | wc -l
+
+分区概念
+分区针对不同的数据库，具有不同的特性。在这里专门针对MySQL数据库而言。在MySQL数据库里，分区这个概念是从mysql 5.1才开始提供的。不过目前只有在mysql advanced版本里才提供。
+封装成中间件，监控
+
+线上的 .svn目录要删除  通过apache/nginx禁止访问.svn目录
+
+.svn 目录要删除  通过apache/nginx禁止访问.svn目录
+tkd
+lazyload
+In.add('TN_common_init', {path: 'http://img.tuniucdn.com/j/2014071517/common/jquery-powerFloat.js,common/lazyloadnew.min.js', type: 'js', charset: 'utf-8'});
+
+In('TN_common_init', function() {
+     //图片异步加载。
+    $("img").lazyload({
+        effect: "fadeIn",
+        failurelimit: 50,
+        threshold: 300,
+        skip_invisible: false
+    });
+});
+直接在 函数的开始返回
+根据status在sql里面过滤
+首页 里面的 img lazyload
+
+总结项目经验
+ ip判断到所在地的
+IP地址是指互联网协议地址（英语：Internet Protocol Address，又译为网际协议地址），是IP Address的缩写。IP地址是IP协议提供的一种统一的地址格式，它为互联网上的每一个网络和每一台主机分配一个逻辑地址，以此来屏蔽物理地址的差异。目前还有些ip代理软件，但大部分都收费。
+
+IP地址是一个32位的二进制数，通常被分割为4个“8位二进制数”（也就是4个字节）。IP地址通常用“点分十进制”表示成（a.b.c.d）的形式，其中，a,b,c,d都是0~255之间的十进制整数。例：点分十进IP地址（100.4.5.6），实际上是32位二进制数（01100100.00000100.00000101.00000110）。
+http://phoenix.tuniu.org/wiki/HowTo-PHP_get_ip_location
+http://phoenix.tuniu.org/wiki/howto-ip-convertor
+
+solr Solr是一个独立的企业级搜索应用服务器，它对外提供类似于Web-service的API接口。用户可以通过http请求，向搜索引擎服务器提交一定格式的XML文件，生成索引；也可以通过Http Get操作提出查找请求，并得到XML格式的返回结果。
+
+Structs
+
+支持https了，但是有https的主机只能配置一个域名吗？因为https协议把host也加密了，服务器不知道host无法定位文件夹 SSL
+
+HTTP1.1 包解析
+
+记录接口失败的
+还有错误日志的列表，要可以查看
+刷所有的css
+
+1.IP下单限制 2.下单日志表 3.慢查加监控
+http://1.tuniu.com/bet/pay/cart?pid=1&pnoid=1&bet_amount=0 没有找到产品404
+逻辑上一定存在的但是没存在 抛500
+
+测试netscaler  netscaler是什么
+
+svninfo 和 报错没有隐藏
+YUI前端
+document.ready JS引用顺序
+http://jira.tuniu.org/browse/WEBS-3568
+
+频率上线
+订单号bigint 分表 慢查
+手机号码不能修改
+页面防刷/价格一定不能随便修改
+抵用券ID 维护进去
+
+javascript:alert(navigator.userAgent)
+date_default_timezone_set('Asia/Shanghai'); 在代码里面设置时区
+
+apache监听多个IP地址
+
+int最大20多亿，unsigned int 40多亿，不是按位算的。
+int  UNSIGNED 不用写11位
+
+admin独立出来
+M站后续迭代
+
+
+•	接口类的组件应该怎么设计（个人观点误喷）
+o	命令模式 (http://baike.baidu.com/view/1963264.htm?fr=aladdin)
+	对命令进行封装，将发出命令的责任和执行命令的责任分割开
+	请求本身成为一个对象
+o	统一调度（轻松切换CURL或TSP）
+o	统一监控（udplog）
+o	参数对象化
+•	网站三代接口组件
+
+o	列表信息查询（支持各种筛选项过滤产品列表，轻松解决各类聚合请求）
+	$solr = new PowerSolrService(); //新建solr
+	$ror = new ror_service_category(); //新建参数对象
+	$ror->poiId = 3922; //入参
+	$ror->cityCode = 1602;
+	$response = $solr->categoryQuery($ror); //调用方法
+o	产品信息查询（迄今为止最靠谱的接口，没有之一）
+•	招客宝接口组件
+o	产品信息查询（轻松支持首页，频道页，分类页，搜索页的招客宝数据查询）
+	$bbService = new PowerBBService();
+	$product = new bb_service_product_showproduct();
+	$product->showDate = date('Y-m-d');
+	//index_chosen_”blockId”_”tabId”(首页)，class_recommend(分类页)，search_complex(搜索页)，brand_zone(品牌专区)，special_subject(专题页)
+	$product->adKey = "";
+	$product->startCityCode = 200;
+	$bbList = $bbService->getProduct($product);
+
+传送门：http://wiki.tuniu.org/pages/viewpage.action?pageId=10523389
+
+http://wiki.tuniu.org/pages/viewpage.action?pageId=10523389
+
+php函数getenv()与putenv()和$_SERVER
+防止刷新
+<?php
+ session_start();
+ $_SESSION['num'] = 0;
+ if(isset($_POST['action'] && $_POST['action']=='submit')){
+  if($_SESSION['num'] == 0){
+   echo '<a href="'.$_SERVER['PHP_SELF'].'">'请再次尝试</a>;'
+   $_SESSION['num'] = 1;
+  }else{
+   echo '您已经提交过了，请不要重复提交';
+  }
+ }
+?>
+
+http://product.dangdang.com/71052.html
+
+//白写的代码
+$ip = $_SERVER["REMOTE_ADDR"];
+$orderCountKey = MemcacheKeyUtil::getCacheKey($ip.'#'.Yii::app()->tuniuUser->userid);
+$orderCount = Yii::app()->memcache->get($orderCountKey);
+if($orderCount >= 2){
+    $locationUrl = Yii::app()->params['host']['tuniu'].'/refreshCode?lastUrl=http://1.tuniu.com';
+    header('Location:'.$locationUrl);
+    exit;
+}
+
+//重复下单的缓存
+Yii::app()->memcache->set($orderCountKey, $orderCount+1, 600);
+
+脚本运行邮件监控
+
+//把字符转成html实体，防止页面输出的时候被执行  htmlentities会转义中文
+$name = htmlspecialchars(Yii::app()->request->getParam('username'), ENT_QUOTES);
+if(strlen($name) > 20 ){
+   $name = mb_substr($name, 0, 20, 'utf-8'); 
+}
+
+security.php
+//防止xss攻击
+require_once dirname(__FILE__).'/protected/components/Security.php';
+//Security::sqlInjectionDefender();
+Security::headerCLeaner();
+Security::getXssSafeParams($_POST);
+Security::getXssSafeParams($_GET);
+Security::getXssSafeParams($_REQUEST);
+Security::getXssSafeParams($_COOKIE);
+
+发布之前注意sql有没有执行
+
+编辑器的列模式
+
+
+<?php
+$switchCityStr = '<div id="con"><ul id="tags"><li class="selectTag"><a href="javascript:void(0)" onclick="selectTag(\'tagContent5\',this)">热门城市</a></li>';
+foreach ($this->nav_top['cityLetter'] as $key => $value) {
+    if ($key) {
+        $letterArr = array_keys($value);
+        $switchCityStr .= '<li><a href="javascript:void(0)" onclick="selectTag(\'tagContent' . $key . '\',this)">' . implode('', $letterArr) . '</a> </li>';
+    }
+}
+$switchCityStr .='</ul><div id="tagContent">';
+$switchCityStr .= '<div id="tagContent5" class="tagContent selectTag">';
+
+
+$districtArray = array('华北' => array(), '华东' => array(), '华南' => array(), '华中' => array(), '西南' => array(),
+    '西北' => array(), '东北' => array());
+//格式化出发城市
+foreach ($this->nav_top['Hot'] as $hotCity) {
+    if (in_array($hotCity['districtName'], array_keys($districtArray))) {
+        $districtArray[$hotCity['districtName']][] = $hotCity;
+    }
+}
+
+foreach ($districtArray as $dkey => $dHotCity) {
+    $switchCityStr .= '<div class="line"><div class="line_left">' . $dkey . '</div><div class="line_right">';
+    foreach ($dHotCity as $_hcity) {
+        if ($this->city_code !== $_hcity['code']) {
+            $switchCityStr .= '<a href="' . $_hcity['url'] . '"  onclick="_gaq.push([\'_trackEvent\', \'home_' . $letter . '\',\'city\',\'zy_' . $_hcity['name'] . '\']);">' . $_hcity['name'] . '<a>';
+        } else {
+            $switchCityStr .= "<a href='javascript:void(0);' class='shixiao' rel='nofollow'  onclick='return false;'>" . $_hcity['name'] . "</a>";
+        }
+    }
+    $switchCityStr .= '</div></div>';
+}
+
+foreach ($this->nav_top['cityLetter'] as $key => $value) {
+    if ($key) {
+        $curent = '';
+        $switchCityStr .= '<div id="tagContent' . $key . '" class="tagContent ' . $curent . '">';
+        foreach ($value as $_letter => $_citys) {
+            $switchCityStr .= '<div class="line"><div class="line_left">' . $_letter . '</div><div class="line_right">';
+            foreach ($_citys as $_city) {
+                if ($this->city_code != $_city['code']) {
+                    $switchCityStr .= '<a href="' . $_city['url'] . '"  onclick="_gaq.push([\'_trackEvent\', \'home_' . $letter . '\',\'city\',\'fzy_' . $_city['name'] . '\']);">' . $_city['name'] . '<a>';
+                } else {
+                    $switchCityStr .= "<a href='javascript:void(0);' class='shixiao' rel='nofollow' onclick='return false;'>" . $_city['name'] . "</a>";
+                }
+            }
+            $switchCityStr .= '</div></div>';
+        }
+        $switchCityStr .= '</div>';
+    }
+}
+?>
+
+
+tanjunqing(谭俊青-61178-2F) 17:19:17
+[Thu Nov 06 15:57:43 2014] [error] [client 172.30.122.88] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 82 bytes) in /opt/tuniu/www/html/bet/framework/db/CDbCommand.php on line 657, referer: http://1.tuniu.com/u/
+tanjunqing(谭俊青-61178-2F) 17:26:03
+172.30.116.118 - - [05/Nov/2014:11:04:58 +0800] "GET / HTTP/1.1" 500 420 "-" "Opera/9.80 (Windows; Opera Mobi/35779; U; zh-cn) Presto/2.10.254 Version/12.00"
+
+修改公共同步的代码
+这个需求的启示
+跟城市有关的页面 url规则做成统一的，方便修改
+另外 出发城市存在 cookie里面好吗？
+
+2.系统有很多不用的垃圾代码
+如果不用了 是否应该 直接删除或者注释掉
+
+3.改成可配置的，每个页面都有自己的page code 或者 pagetype，那些是可以公用的那些不能公用。
+
+
+有趣的网站 武汉易橙网络科技有限公司 2shoujie.com
