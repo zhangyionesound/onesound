@@ -542,3 +542,41 @@ tanjunqing(谭俊青-61178-2F) 17:26:03
 
 
 有趣的网站 武汉易橙网络科技有限公司 2shoujie.com
+阅后即焚的ＡＰＰ
+
+git config
+git init
+git clone git@github.com:wangchongan/weixin-robot-java.git
+
+我是按照这里http://www.howtoforge.com/apache_php_mysql_on_centos_6.5_lamp来装的apache和php
+
+linkedin 职场人的社交网站
+万得资讯 国泰君安
+
+关于书籍：
+
+原则：只看国外的，只用Google，只用英文. 一般用图灵的技术书籍。
+
+推荐书籍：
+
+    入门篇：《PHP和MySQL Web开发(第四版)》
+    进阶篇：《深入PHP 面向对象、模式与实践》
+    钻研篇：《代码大全》《重构 改善既有代码的设计》《程序员修炼之道 从小工到专家》《日月神话》，其他：数据结构与算法、设计模式、安全、最佳实践。
+
+配置表
+开奖4个数据源  腾讯彩票，淘宝彩票
+
+1.收入 等需求 自己做一个。
+2.BI对接 不用对接
+
+if (!isset($foo{5}))
+
+服务器时间 只显示已中奖的用户 统计总共参与的人次，统计平均客单价 短信接口配置一下就可以了
+
+根据订单号查产品id，再通过BOH查产品类型，这个可以试试 接口可能有问题
+多文件上传
+
+订单推财务的
+导出EXCEL的
+
+这个专案名称就是PEAR，其实是PHP Extension and Application Repository的缩写，意即「PHP的延续与应用程式库」，简单的說，PEAR其实是一个PHP的程式库。 
