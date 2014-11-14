@@ -27,10 +27,11 @@ class SiteController extends Controller {
      * when an action is not explicitly requested by users.
      */
     public function actionIndex() {
-        $this->pageTitle = '网上找网址就来上网';
+        $this->pageTitle = 'ZHANG YI IS LEARNING PHP';
         // renders the view file 'protected/views/site/index.php'
         // using the default layout 'protected/views/layouts/main.php'
-        $this->render('onesound');
+        $this->render('demo');
+        //$this->render('onesound');
     }
 
     /**

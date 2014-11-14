@@ -210,3 +210,870 @@ Stack trace:
 #16 {main}
 REQUEST_URI=/
 ---
+2014/11/14 11:48:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/login".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 11:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/login".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 11:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/login".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 11:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/login".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 11:48:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/login".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 11:48:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/login".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 11:49:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/login".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 11:49:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/login".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 11:49:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo
+HTTP_REFERER=
+---
+2014/11/14 11:49:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo
+HTTP_REFERER=
+---
+2014/11/14 11:51:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/index".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/index')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo
+HTTP_REFERER=
+---
+2014/11/14 11:51:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/index".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/index')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/
+HTTP_REFERER=
+---
+2014/11/14 11:51:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/
+HTTP_REFERER=
+---
+2014/11/14 12:29:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/
+HTTP_REFERER=
+---
+2014/11/14 12:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/login".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 12:30:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/login".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=
+---
+2014/11/14 12:30:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "demo/login".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=
+---
+2014/11/14 12:30:47 [error] [php] Undefined variable: model (D:\onesound\protected\views\demo\login.php:30)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(870): DemoController->renderFile()
+#1 D:\onesound\framework\web\CController.php(783): DemoController->renderPartial()
+#2 D:\onesound\protected\controllers\DemoController.php(8): DemoController->render()
+#3 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#4 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#6 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#7 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#8 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\views\demo\login.php (30)
+in D:\onesound\protected\controllers\DemoController.php (8)
+in D:\onesound\index.php (23)
+2014/11/14 12:31:40 [error] [exception.CException] exception 'CException' with message 'Property "AdminLoginForm.username" is not defined.' in D:\onesound\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\onesound\framework\web\helpers\CHtml.php(2159): CComponent->__get('username')
+#1 D:\onesound\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(AdminLoginForm), 'username')
+#2 D:\onesound\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(AdminLoginForm), 'username', Array)
+#3 D:\onesound\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(AdminLoginForm), 'username', Array)
+#4 D:\onesound\protected\views\demo\login.php(31): CActiveForm->textField(Object(AdminLoginForm), 'username')
+#5 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#6 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#7 D:\onesound\framework\web\CController.php(870): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#8 D:\onesound\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#9 D:\onesound\protected\controllers\DemoController.php(9): CController->render('login', Array)
+#10 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#11 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\onesound\framework\web\CWebApplication.php(283): CController->run('login')
+#15 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#16 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\onesound\index.php(23): CApplication->run()
+#18 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=
+---
+2014/11/14 13:22:05 [error] [exception.CException] exception 'CException' with message 'Property "AdminLoginForm.username" is not defined.' in D:\onesound\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\onesound\framework\web\helpers\CHtml.php(2159): CComponent->__get('username')
+#1 D:\onesound\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(AdminLoginForm), 'username')
+#2 D:\onesound\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(AdminLoginForm), 'username', Array)
+#3 D:\onesound\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(AdminLoginForm), 'username', Array)
+#4 D:\onesound\protected\views\demo\login.php(31): CActiveForm->textField(Object(AdminLoginForm), 'username')
+#5 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#6 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#7 D:\onesound\framework\web\CController.php(870): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#8 D:\onesound\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#9 D:\onesound\protected\controllers\DemoController.php(9): CController->render('login', Array)
+#10 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#11 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\onesound\framework\web\CWebApplication.php(283): CController->run('login')
+#15 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#16 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\onesound\index.php(23): CApplication->run()
+#18 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=
+---
+2014/11/14 14:32:03 [error] [exception.CException] exception 'CException' with message 'Property "AdminLoginForm.username" is not defined.' in D:\onesound\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\onesound\framework\web\helpers\CHtml.php(2159): CComponent->__get('username')
+#1 D:\onesound\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(AdminLoginForm), 'username')
+#2 D:\onesound\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(AdminLoginForm), 'username', Array)
+#3 D:\onesound\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(AdminLoginForm), 'username', Array)
+#4 D:\onesound\protected\views\demo\login.php(31): CActiveForm->textField(Object(AdminLoginForm), 'username')
+#5 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#6 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#7 D:\onesound\framework\web\CController.php(870): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#8 D:\onesound\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#9 D:\onesound\protected\controllers\DemoController.php(9): CController->render('login', Array)
+#10 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#11 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\onesound\framework\web\CWebApplication.php(283): CController->run('login')
+#15 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#16 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\onesound\index.php(23): CApplication->run()
+#18 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 14:33:17 [error] [exception.CException] exception 'CException' with message 'Property "AdminLoginForm.rememberMe" is not defined.' in D:\onesound\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\onesound\framework\web\helpers\CHtml.php(2159): CComponent->__get('rememberMe')
+#1 D:\onesound\framework\web\helpers\CHtml.php(1460): CHtml::resolveValue(Object(AdminLoginForm), 'rememberMe')
+#2 D:\onesound\framework\web\widgets\CActiveForm.php(748): CHtml::activeCheckBox(Object(AdminLoginForm), 'rememberMe', Array)
+#3 D:\onesound\protected\views\demo\login.php(45): CActiveForm->checkBox(Object(AdminLoginForm), 'rememberMe')
+#4 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#5 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#6 D:\onesound\framework\web\CController.php(870): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#7 D:\onesound\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#8 D:\onesound\protected\controllers\DemoController.php(9): CController->render('login', Array)
+#9 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#10 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\onesound\framework\web\CWebApplication.php(283): CController->run('login')
+#14 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#15 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\onesound\index.php(23): CApplication->run()
+#17 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 14:34:11 [error] [exception.CException] exception 'CException' with message 'Property "AdminLoginForm.rememberMe" is not defined.' in D:\onesound\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\onesound\framework\web\helpers\CHtml.php(2159): CComponent->__get('rememberMe')
+#1 D:\onesound\framework\web\helpers\CHtml.php(1460): CHtml::resolveValue(Object(AdminLoginForm), 'rememberMe')
+#2 D:\onesound\framework\web\widgets\CActiveForm.php(748): CHtml::activeCheckBox(Object(AdminLoginForm), 'rememberMe', Array)
+#3 D:\onesound\protected\views\demo\login.php(45): CActiveForm->checkBox(Object(AdminLoginForm), 'rememberMe')
+#4 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#5 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#6 D:\onesound\framework\web\CController.php(870): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#7 D:\onesound\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#8 D:\onesound\protected\controllers\DemoController.php(9): CController->render('login', Array)
+#9 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#10 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\onesound\framework\web\CWebApplication.php(283): CController->run('login')
+#14 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#15 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\onesound\index.php(23): CApplication->run()
+#17 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 14:34:13 [error] [exception.CException] exception 'CException' with message 'Property "AdminLoginForm.rememberMe" is not defined.' in D:\onesound\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\onesound\framework\web\helpers\CHtml.php(2159): CComponent->__get('rememberMe')
+#1 D:\onesound\framework\web\helpers\CHtml.php(1460): CHtml::resolveValue(Object(AdminLoginForm), 'rememberMe')
+#2 D:\onesound\framework\web\widgets\CActiveForm.php(748): CHtml::activeCheckBox(Object(AdminLoginForm), 'rememberMe', Array)
+#3 D:\onesound\protected\views\demo\login.php(45): CActiveForm->checkBox(Object(AdminLoginForm), 'rememberMe')
+#4 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#5 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#6 D:\onesound\framework\web\CController.php(870): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#7 D:\onesound\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#8 D:\onesound\protected\controllers\DemoController.php(9): CController->render('login', Array)
+#9 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#10 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\onesound\framework\web\CWebApplication.php(283): CController->run('login')
+#14 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#15 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\onesound\index.php(23): CApplication->run()
+#17 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 14:34:13 [error] [exception.CException] exception 'CException' with message 'Property "AdminLoginForm.rememberMe" is not defined.' in D:\onesound\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\onesound\framework\web\helpers\CHtml.php(2159): CComponent->__get('rememberMe')
+#1 D:\onesound\framework\web\helpers\CHtml.php(1460): CHtml::resolveValue(Object(AdminLoginForm), 'rememberMe')
+#2 D:\onesound\framework\web\widgets\CActiveForm.php(748): CHtml::activeCheckBox(Object(AdminLoginForm), 'rememberMe', Array)
+#3 D:\onesound\protected\views\demo\login.php(45): CActiveForm->checkBox(Object(AdminLoginForm), 'rememberMe')
+#4 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#5 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#6 D:\onesound\framework\web\CController.php(870): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#7 D:\onesound\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#8 D:\onesound\protected\controllers\DemoController.php(9): CController->render('login', Array)
+#9 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#10 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\onesound\framework\web\CWebApplication.php(283): CController->run('login')
+#14 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#15 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\onesound\index.php(23): CApplication->run()
+#17 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 14:34:14 [error] [exception.CException] exception 'CException' with message 'Property "AdminLoginForm.rememberMe" is not defined.' in D:\onesound\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\onesound\framework\web\helpers\CHtml.php(2159): CComponent->__get('rememberMe')
+#1 D:\onesound\framework\web\helpers\CHtml.php(1460): CHtml::resolveValue(Object(AdminLoginForm), 'rememberMe')
+#2 D:\onesound\framework\web\widgets\CActiveForm.php(748): CHtml::activeCheckBox(Object(AdminLoginForm), 'rememberMe', Array)
+#3 D:\onesound\protected\views\demo\login.php(45): CActiveForm->checkBox(Object(AdminLoginForm), 'rememberMe')
+#4 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#5 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#6 D:\onesound\framework\web\CController.php(870): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#7 D:\onesound\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#8 D:\onesound\protected\controllers\DemoController.php(9): CController->render('login', Array)
+#9 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#10 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\onesound\framework\web\CWebApplication.php(283): CController->run('login')
+#14 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#15 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\onesound\index.php(23): CApplication->run()
+#17 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 14:34:14 [error] [exception.CException] exception 'CException' with message 'Property "AdminLoginForm.rememberMe" is not defined.' in D:\onesound\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\onesound\framework\web\helpers\CHtml.php(2159): CComponent->__get('rememberMe')
+#1 D:\onesound\framework\web\helpers\CHtml.php(1460): CHtml::resolveValue(Object(AdminLoginForm), 'rememberMe')
+#2 D:\onesound\framework\web\widgets\CActiveForm.php(748): CHtml::activeCheckBox(Object(AdminLoginForm), 'rememberMe', Array)
+#3 D:\onesound\protected\views\demo\login.php(45): CActiveForm->checkBox(Object(AdminLoginForm), 'rememberMe')
+#4 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#5 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#6 D:\onesound\framework\web\CController.php(870): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#7 D:\onesound\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#8 D:\onesound\protected\controllers\DemoController.php(9): CController->render('login', Array)
+#9 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#10 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\onesound\framework\web\CWebApplication.php(283): CController->run('login')
+#14 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#15 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\onesound\index.php(23): CApplication->run()
+#17 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 14:34:50 [error] [exception.CException] exception 'CException' with message 'Property "AdminLoginForm.rememberMe" is not defined.' in D:\onesound\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\onesound\framework\web\helpers\CHtml.php(2159): CComponent->__get('rememberMe')
+#1 D:\onesound\framework\web\helpers\CHtml.php(1460): CHtml::resolveValue(Object(AdminLoginForm), 'rememberMe')
+#2 D:\onesound\framework\web\widgets\CActiveForm.php(748): CHtml::activeCheckBox(Object(AdminLoginForm), 'rememberMe', Array)
+#3 D:\onesound\protected\views\demo\login.php(45): CActiveForm->checkBox(Object(AdminLoginForm), 'rememberMe')
+#4 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#5 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#6 D:\onesound\framework\web\CController.php(870): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#7 D:\onesound\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#8 D:\onesound\protected\controllers\DemoController.php(9): CController->render('login', Array)
+#9 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#10 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\onesound\framework\web\CWebApplication.php(283): CController->run('login')
+#14 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#15 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\onesound\index.php(23): CApplication->run()
+#17 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 14:34:52 [error] [exception.CException] exception 'CException' with message 'Property "AdminLoginForm.rememberMe" is not defined.' in D:\onesound\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\onesound\framework\web\helpers\CHtml.php(2159): CComponent->__get('rememberMe')
+#1 D:\onesound\framework\web\helpers\CHtml.php(1460): CHtml::resolveValue(Object(AdminLoginForm), 'rememberMe')
+#2 D:\onesound\framework\web\widgets\CActiveForm.php(748): CHtml::activeCheckBox(Object(AdminLoginForm), 'rememberMe', Array)
+#3 D:\onesound\protected\views\demo\login.php(45): CActiveForm->checkBox(Object(AdminLoginForm), 'rememberMe')
+#4 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#5 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#6 D:\onesound\framework\web\CController.php(870): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#7 D:\onesound\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#8 D:\onesound\protected\controllers\DemoController.php(9): CController->render('login', Array)
+#9 D:\onesound\framework\web\actions\CInlineAction.php(50): DemoController->actionLogin()
+#10 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\onesound\framework\web\CWebApplication.php(283): CController->run('login')
+#14 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('demo/login')
+#15 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\onesound\index.php(23): CApplication->run()
+#17 {main}
+REQUEST_URI=/demo/login
+HTTP_REFERER=http://www.onesound.org/
+---
+2014/11/14 14:46:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 14:46:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 14:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 14:47:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 14:47:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 14:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 14:47:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/gur-project/gur-project-03.png".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('images/gur-proj...')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/gur-project/gur-project-03.png
+HTTP_REFERER=
+---
+2014/11/14 14:56:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 14:57:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 14:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 14:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 14:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/demo/images/login-sprite.png".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/demo/ima...')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/demo/images/login-sprite.png
+HTTP_REFERER=
+---
+2014/11/14 15:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/gur-project/gur-project-03.png".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('images/gur-proj...')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/gur-project/gur-project-03.png
+HTTP_REFERER=
+---
+2014/11/14 15:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:01:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/gur-project/gur-project-03.png".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('images/gur-proj...')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/gur-project/gur-project-03.png
+HTTP_REFERER=
+---
+2014/11/14 15:01:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:02:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:02:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:02:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:02:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:02:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:05:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:05:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:05:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:08:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:08:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:09:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:09:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:09:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:09:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:13:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/gur-project/gur-project-03.png".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('images/gur-proj...')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/gur-project/gur-project-03.png
+HTTP_REFERER=
+---
+2014/11/14 15:23:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:25:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:28:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:28:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:29:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:29:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:29:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:30:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:30:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:30:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---

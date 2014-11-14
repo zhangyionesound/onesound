@@ -1,3 +1,9 @@
+onesound
+========
+
+help people find website
+this is a website help people find the website they like
+
 /opt/tuniu/apache2/bin/apachectl restart linux下apache重启的命令
 
 流量本身就是钱，导到那里都是赚钱，为什么要导到你那边呢
@@ -580,3 +586,12 @@ if (!isset($foo{5}))
 导出EXCEL的
 
 这个专案名称就是PEAR，其实是PHP Extension and Application Repository的缩写，意即「PHP的延续与应用程式库」，简单的說，PEAR其实是一个PHP的程式库。 
+PEAR分成三类：PEAR核心组件、PEAR包和PECL包。
+
+登录-单点登录
+多文件上传  每个功能都要自己写写demo 只放在缓存里，每次读文件就好了，修改时间是文件的属性。
+EXCEL导出
+关注量级
+
+EXCEL里面的需求先不做，然后中将提醒和M站
+LIVEHETTPHEADER

@@ -9,8 +9,7 @@ class AdminLoginForm extends CFormModel {
 
     public $name;
     public $password;
-    //客服绑定电话
-    public $callingphone;
+    public $rememberMe;
     private $_identity;
 
     /**
@@ -31,6 +30,7 @@ class AdminLoginForm extends CFormModel {
         return array(
             'name' => '用户名',
             'password' => '密码',
+            'rememberMe' => '记住我',
         );
     }
 

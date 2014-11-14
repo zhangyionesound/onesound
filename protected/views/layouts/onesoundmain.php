@@ -9,7 +9,7 @@
 
         <link href="/images/gur-project/gur-project-03.png" rel="shortcut icon">
 
-        <title>OS网上</title>
+        <title><?PHP echo isset($this->pageTitle)?$this->pageTitle:"zhang yi";?></title>
        
         <?php $this->oneSoundCss()?>
         <!-- Just for debugging purposes. Don't actually copy this line! -->
