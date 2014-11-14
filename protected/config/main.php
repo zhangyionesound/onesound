@@ -51,12 +51,12 @@ return array(
 		
 		'db' => array(
                     'class' => 'DbConnectionMan', // 'class' => 'system.db.CDbConnection',
-                    'connectionString' => 'mysql:host=localhost;dbname=theone',
+                    'connectionString' => 'mysql:host=localhost;dbname=test',
                     'schemaCachingDuration' => 432000, //60*60*12
                     'emulatePrepare' => true,
                     'enableProfiling' => true,
                     'username' => 'root',
-                    'password' => '123456',
+                    'password' => '',
                     'charset' => 'utf8',
                     'tablePrefix' => 'v1_',
                 ),

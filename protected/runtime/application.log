@@ -1,0 +1,212 @@
+2014/11/14 09:30:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\onesound\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\onesound\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\onesound\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\onesound\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\onesound\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\onesound\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\onesound\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\onesound\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Admin))
+#7 D:\onesound\protected\models\BaseModel.php(55): CActiveRecord::model('Admin')
+#8 D:\onesound\protected\models\Admin.php(11): BaseModel::model('Admin')
+#9 D:\onesound\protected\views\layouts\onesoundmain.php(46): Admin::model()
+#10 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#11 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#12 D:\onesound\framework\web\CController.php(785): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#13 D:\onesound\protected\controllers\SiteController.php(33): CController->render('onesound')
+#14 D:\onesound\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\onesound\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\onesound\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2014/11/14 09:31:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'theone'' in D:\onesound\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\onesound\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\onesound\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\onesound\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\onesound\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\onesound\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\onesound\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\onesound\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Admin))
+#7 D:\onesound\protected\models\BaseModel.php(55): CActiveRecord::model('Admin')
+#8 D:\onesound\protected\models\Admin.php(11): BaseModel::model('Admin')
+#9 D:\onesound\protected\views\layouts\onesoundmain.php(46): Admin::model()
+#10 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#11 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#12 D:\onesound\framework\web\CController.php(785): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#13 D:\onesound\protected\controllers\SiteController.php(33): CController->render('onesound')
+#14 D:\onesound\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\onesound\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\onesound\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2014/11/14 09:31:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'theone'' in D:\onesound\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\onesound\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\onesound\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\onesound\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\onesound\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\onesound\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\onesound\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\onesound\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Admin))
+#7 D:\onesound\protected\models\BaseModel.php(55): CActiveRecord::model('Admin')
+#8 D:\onesound\protected\models\Admin.php(11): BaseModel::model('Admin')
+#9 D:\onesound\protected\views\layouts\onesoundmain.php(46): Admin::model()
+#10 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#11 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#12 D:\onesound\framework\web\CController.php(785): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#13 D:\onesound\protected\controllers\SiteController.php(33): CController->render('onesound')
+#14 D:\onesound\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\onesound\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\onesound\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2014/11/14 09:31:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'theone'' in D:\onesound\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\onesound\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\onesound\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\onesound\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\onesound\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\onesound\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\onesound\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\onesound\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Admin))
+#7 D:\onesound\protected\models\BaseModel.php(55): CActiveRecord::model('Admin')
+#8 D:\onesound\protected\models\Admin.php(11): BaseModel::model('Admin')
+#9 D:\onesound\protected\views\layouts\onesoundmain.php(46): Admin::model()
+#10 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#11 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#12 D:\onesound\framework\web\CController.php(785): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#13 D:\onesound\protected\controllers\SiteController.php(33): CController->render('onesound')
+#14 D:\onesound\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\onesound\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\onesound\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2014/11/14 09:31:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'theone'' in D:\onesound\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\onesound\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\onesound\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\onesound\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\onesound\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\onesound\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\onesound\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\onesound\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Admin))
+#7 D:\onesound\protected\models\BaseModel.php(55): CActiveRecord::model('Admin')
+#8 D:\onesound\protected\models\Admin.php(11): BaseModel::model('Admin')
+#9 D:\onesound\protected\views\layouts\onesoundmain.php(46): Admin::model()
+#10 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#11 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#12 D:\onesound\framework\web\CController.php(785): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#13 D:\onesound\protected\controllers\SiteController.php(33): CController->render('onesound')
+#14 D:\onesound\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\onesound\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\onesound\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2014/11/14 09:31:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'theone'' in D:\onesound\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\onesound\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\onesound\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\onesound\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\onesound\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\onesound\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\onesound\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\onesound\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Admin))
+#7 D:\onesound\protected\models\BaseModel.php(55): CActiveRecord::model('Admin')
+#8 D:\onesound\protected\models\Admin.php(11): BaseModel::model('Admin')
+#9 D:\onesound\protected\views\layouts\onesoundmain.php(46): Admin::model()
+#10 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#11 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#12 D:\onesound\framework\web\CController.php(785): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#13 D:\onesound\protected\controllers\SiteController.php(33): CController->render('onesound')
+#14 D:\onesound\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\onesound\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\onesound\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/
+---
+2014/11/14 09:31:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.v1_admin' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `v1_admin`.
+in D:\onesound\protected\models\BaseModel.php (55)
+in D:\onesound\protected\models\Admin.php (11)
+in D:\onesound\protected\views\layouts\onesoundmain.php (46)
+2014/11/14 09:31:33 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{admin}}" for active record class "Admin" cannot be found in the database.' in D:\onesound\framework\db\ar\CActiveRecord.php:2312
+Stack trace:
+#0 D:\onesound\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Admin))
+#1 D:\onesound\protected\models\BaseModel.php(55): CActiveRecord::model('Admin')
+#2 D:\onesound\protected\models\Admin.php(11): BaseModel::model('Admin')
+#3 D:\onesound\protected\views\layouts\onesoundmain.php(46): Admin::model()
+#4 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#5 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#6 D:\onesound\framework\web\CController.php(785): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#7 D:\onesound\protected\controllers\SiteController.php(33): CController->render('onesound')
+#8 D:\onesound\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#9 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\onesound\framework\web\CWebApplication.php(283): CController->run('')
+#13 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#14 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\onesound\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/
+---
+2014/11/14 11:21:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.v1_admin' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `v1_admin`.
+in D:\onesound\protected\models\BaseModel.php (55)
+in D:\onesound\protected\models\Admin.php (11)
+in D:\onesound\protected\views\layouts\onesoundmain.php (46)
+2014/11/14 11:21:47 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{admin}}" for active record class "Admin" cannot be found in the database.' in D:\onesound\framework\db\ar\CActiveRecord.php:2312
+Stack trace:
+#0 D:\onesound\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Admin))
+#1 D:\onesound\protected\models\BaseModel.php(55): CActiveRecord::model('Admin')
+#2 D:\onesound\protected\models\Admin.php(11): BaseModel::model('Admin')
+#3 D:\onesound\protected\views\layouts\onesoundmain.php(46): Admin::model()
+#4 D:\onesound\framework\web\CBaseController.php(127): require('D:\onesound\pro...')
+#5 D:\onesound\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\onesound\pro...', Array, true)
+#6 D:\onesound\framework\web\CController.php(785): CBaseController->renderFile('D:\onesound\pro...', Array, true)
+#7 D:\onesound\protected\controllers\SiteController.php(33): CController->render('onesound')
+#8 D:\onesound\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#9 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\onesound\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\onesound\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\onesound\framework\web\CWebApplication.php(283): CController->run('')
+#13 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#14 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\onesound\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/
+---
