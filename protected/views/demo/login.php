@@ -2,7 +2,8 @@
 
 <html>
     <head>
-        <title>LOGIN DEMO</title>
+        <meta charset="utf-8">
+        <title>LOGIN DEMO（登录）</title>
         <style>
 
             html, body
@@ -277,16 +278,16 @@
             <a href="/" id="back">Back to article...</a>
         </form>
 
-<!--         BSA AdPacks code 
-        <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-        <script>
-            (function() {
-                var bsa = document.createElement('script');
-                bsa.async = true;
-                bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bsa);
-            })();
-        </script>-->
+        <!--         BSA AdPacks code 
+                <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+                <script>
+                    (function() {
+                        var bsa = document.createElement('script');
+                        bsa.async = true;
+                        bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bsa);
+                    })();
+                </script>-->
 
     </body>
 </html>

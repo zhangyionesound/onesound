@@ -12,19 +12,20 @@
         <div class="col-sm-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">登陆</h3>
+                    <h3 class="panel-title">常用组件</h3>
                 </div>
                 <div class="panel-body">
                     <a href="/demo/login" target="_blank">登陆</a>
                     <a href="/demo/uploadfile" target="_blank">上传文件</a>
+                    <a href="/demo/excel" target="_blank">EXCEL</a>
                 </div>
             </div>
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <h3 class="panel-title">生活服务</h3>
+                    <h3 class="panel-title">知识点</h3>
                 </div>
                 <div class="panel-body">
-                    <a href="http://www.58.com/" target="_blank">58同城</a>
+                    <a href="/know/index" target="_blank">知识点展示</a>
                 </div>
             </div>
         </div><!-- /.col-sm-4 -->

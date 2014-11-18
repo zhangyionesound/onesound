@@ -2,11 +2,12 @@
 
 <html>
     <head>
+        <meta charset="utf-8">
         <title>LOGIN DEMO</title>
         <link href="/js/uploadify-v3.1/uploadify.css" type="text/css" rel="stylesheet" />
         <script type="text/javascript" src="/js/uploadify-v3.1/jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="/js/uploadify-v3.1/jquery.uploadify-3.1.min.js"></script>
-       <style>
+        <style>
             #photos li {
                 float: left;
                 width: 160px;
@@ -57,7 +58,9 @@
             'buttonText': '上传文件',
             'multi': true,
             'onUploadSuccess': function(file, data, response) {//每次成功上传后执行的回调函数，从服务端返回数据到前端
-//            alert(data);
+                alert(data);
+                console.log(data);
+                return false;
                 data = eval("(" + data + ")");
                 if (!data['success']) {
                     upload_failed[failed_index] = file.name + " -- " + data['msg'];

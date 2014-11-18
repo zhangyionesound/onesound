@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<all>
+    
+    <knowledge>
+        <knowledge1>
+            <title>设置头部的方法</title>
+            <content>PHP 代码设置头部
+                header("Content-Type:text/html;charset=utf-8"); 
+                html代码设置头部
+                header中加上<![CDATA[ <meta charset="utf-8"> ]]>
+            <![CDATA[ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> ]]>    
+                文件的编码，数据库的编码都要统一用utf8才可以 mysql ： set names utf-8;
+                php.ini设置了
+                default_charset = "gbk"改为
+                default_charset = "utf8"
+                新建项目的时候在编辑器设置好编码格式 utf8</content>
+        </knowledge1>
+        <knowledge2>
+            <title>火狐工具栏</title>
+            <content>Alt打开火狐的隐藏栏，显示工具的选项，就可以使用刚才添加的组件了</content>
+        </knowledge2>
+        <knowledge3>
+            <title>xml标签</title>
+            <content>可以用xml标签产生有层级关系的属性。XML文件比一般的配置文件的好处就是有层级关系。</content>
+        </knowledge3>
+    </knowledge>
+
+    <reading>
+        <title>深入PHP面向对象，模式与实践 学习笔记：</title>
+        <lecture1>
+            <lecturename1>对象：</lecturename1>
+            <lectureconten1>继承就是父类继承子类，用于父类的一些方法和属性，同时也可以覆盖父类的一些方法（重写），就像Yii框架中的其他的controller继承最基础的Controller继承一样。
+                子类其实也相当于父类的扩展，如果没有继承，父类可能有一些多余的属性和方法，会变得冗余。</lectureconten1>
+        </lecture1>
+    </reading>
+
+    <needtokonw>
+        <needknow1>1.相关服务器备案的信息</needknow1>
+        <needknow2>2.二级域名如何做映射</needknow2>
+        <needknow3>3.单点登录、CAS</needknow3>
+    </needtokonw>
+        
+        <tools>
+            <memcache>http://www.junopen.com/memadmin  这个东西不错，本机查看memcache</memcache>
+        </tools>
+</all>

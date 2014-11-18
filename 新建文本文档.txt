@@ -595,3 +595,9 @@ EXCEL导出
 
 EXCEL里面的需求先不做，然后中将提醒和M站
 LIVEHETTPHEADER
+产品分类
+
+JS的变量必须用 var声明 不然就是全局变量 会造成污染。
+shtml是html的扩展支持 include的方式
+
+mnt 共享存储

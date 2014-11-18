@@ -1077,3 +1077,1004 @@ Stack trace:
 REQUEST_URI=/favicon.ico
 HTTP_REFERER=
 ---
+2014/11/14 15:39:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:39:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:40:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:47:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 15:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 16:46:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 16:46:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:43:47 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, string given, called in D:\onesound\protected\controllers\DemoController.php on line 28 and defined (D:\onesound\protected\controllers\DemoController.php:33)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (33)
+in D:\onesound\protected\controllers\DemoController.php (28)
+in D:\onesound\index.php (23)
+2014/11/14 17:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:44:00 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 29 and defined (D:\onesound\protected\controllers\DemoController.php:33)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (33)
+in D:\onesound\protected\controllers\DemoController.php (29)
+in D:\onesound\index.php (23)
+2014/11/14 17:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:44:25 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 29 and defined (D:\onesound\protected\controllers\DemoController.php:33)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (33)
+in D:\onesound\protected\controllers\DemoController.php (29)
+in D:\onesound\index.php (23)
+2014/11/14 17:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:44:33 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:44:41 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 31 and defined (D:\onesound\protected\controllers\DemoController.php:35)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (35)
+in D:\onesound\protected\controllers\DemoController.php (31)
+in D:\onesound\index.php (23)
+2014/11/14 17:44:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:44:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:26 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:45:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:48 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:49 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:50 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:45:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:51 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:51 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:51 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:45:51 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:51 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:52 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:45:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:45:52 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:45:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:46:32 [error] [php] Argument 1 passed to DemoController::test() must be of the type array, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:46:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:46:33 [error] [php] Argument 1 passed to DemoController::test() must be of the type array, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:46:46 [error] [php] Argument 1 passed to DemoController::test() must be of the type array, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:46:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:46:48 [error] [php] Argument 1 passed to DemoController::test() must be of the type array, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:46:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:46:48 [error] [php] Argument 1 passed to DemoController::test() must be of the type array, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:46:49 [error] [php] Argument 1 passed to DemoController::test() must be of the type array, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:46:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:47:04 [error] [php] Argument 1 passed to DemoController::test() must be an instance of int, integer given, called in D:\onesound\protected\controllers\DemoController.php on line 30 and defined (D:\onesound\protected\controllers\DemoController.php:34)
+Stack trace:
+#0 D:\onesound\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\onesound\framework\web\CController.php(287): DemoController->runAction()
+#2 D:\onesound\framework\web\CController.php(266): DemoController->runActionWithFilters()
+#3 D:\onesound\framework\web\CWebApplication.php(283): DemoController->run()
+#4 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\onesound\index.php(23): CWebApplication->run()
+REQUEST_URI=/demo/login
+in D:\onesound\protected\controllers\DemoController.php (34)
+in D:\onesound\protected\controllers\DemoController.php (30)
+in D:\onesound\index.php (23)
+2014/11/14 17:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 17:49:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:33:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:33:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:33:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:35:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:35:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:35:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:35:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:38:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:42:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:42:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:42:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:42:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:42:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:42:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:43:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/14 18:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/18 09:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/18 09:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
+2014/11/18 09:55:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\onesound\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\onesound\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\onesound\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\onesound\index.php(23): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=
+---
