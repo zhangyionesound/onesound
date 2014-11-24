@@ -601,3 +601,91 @@ JS的变量必须用 var声明 不然就是全局变量 会造成污染。
 shtml是html的扩展支持 include的方式
 
 mnt 共享存储
+
+
+1.判断ip和cookie是否相等，不想等弹出提示，
+2.hhsw也要改？
+3.如果点击取消，记录状态，之后不再弹出提示
+
+var i = 0;
+var jqueryInter = setInterval(function() {
+    if ($ && jQuery && i < 10) {
+        clearInterval(jqueryInter);
+        $(document).mousemove(function() {
+            locationchange.checkip();
+            $(document).off('mousemove');
+        });
+    } else {
+        var scriptEle = document.createElment("script");
+        scriptEle.src = "";
+        scriptEle.type = "text/javasript";
+        document.getElementsByTagName("body")[0].appendChild(scriptEle);
+    }
+}, 200);
+
+ANSI转utf8的工具
+
+
+
+-- Table "test_table" DDL
+
+CREATE TABLE `ip_test` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `field1` varchar(512) NOT NULL default '',
+  `field2` varchar(512) NOT NULL default '',
+  `field3` varchar(512) NOT NULL default '',
+  `field4` varchar(512) NOT NULL default '',
+  `field5` varchar(512) NOT NULL default '',
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+csv 导入mysql
+    load data infile 'D://a.csv'   
+    into table ip_test   
+    fields terminated by ','  optionally enclosed by '"' escaped by '"'   
+    lines terminated by '\r\n'
+(field1,field2,field3,field4,field5);
+
+load data local infile "D://IP.txt" into table ip_address2 fields terminated by '|' ENCLOSED BY '' (`ipaddress1`,`ipaddress2` ,ip1,ip2,province_name,`city_name` ,`district_name` ,`yunying_name` ,`code` )
+
+load data local infile "D://IP.txt" into table ip_address2 IGNORE 1 LINES fields terminated by '|';
+
+load data local infile "D://IP.txt" into table ip_address2 character set utf8 fields terminated by '|'  ;
+
+create table ip3 SELECT * FROM test_table WHERE field5 LIKE field5 LIKE "%中国%" OR  field5 LIKE "%内蒙古%" OR field5 LIKE "%香港%" OR field5 LIKE "%澳门%" OR field5 LIKE "%新疆%" OR field5 LIKE "%宁夏%" OR field5 LIKE "%省%" OR field5 LIKE "%市%" OR field5 LIKE "%学%"
+
+ip和整形互相替换
+$a = long2ip(520597631);
+        $b = ip2long('31.7.176.127');
+
+ mysql - LOAD DATA INFILE
+
+ISP(Internet Service Provider)，互联网服务提供商
+
+去掉redis的持久化 因为卡
+
+1.下单的限制
+2.合并支付的问题
+3.activemq
+4.M站
+
+lixinliang(黎新亮-61221-2-E1-24) 18:22:53
+加一句话吧
+lixinliang(黎新亮-61221-2-E1-24) 18:23:41
+很抱歉，本次夺宝您未成功，夺宝币将返回至您个人账户 
+
+mysql -uroot -p
+show database;
+use test;
+source d://a.sql;
+show global variables like '%trx%';
+mysql -uroot test -f -e "source d://ip_address3.sql"
+set global innodb_flush_log_at_trx_commit  = 0;
+
+update ip_address3,ip_address3_test set ip_address3_test.book_city=ip_address3.book_city where ip_address3.province = ip_address3_test.province and ip_address3_test.province!=0 and ip_address3_test.city=0 and ip_address3_test.book_city='';
+
+http://www.lesscss.net/#getting-started
+
+sla service layer availability 
+定义：在给定的时间段内，能够使用业务功能的时间所占百分比。
+preg_match("/^[1-9]\d*$/", $result)
+
