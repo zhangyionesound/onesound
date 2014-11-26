@@ -689,3 +689,47 @@ sla service layer availability
 定义：在给定的时间段内，能够使用业务功能的时间所占百分比。
 preg_match("/^[1-9]\d*$/", $result)
 
+1.支付的时候提示余额不足，支付完剩余的号码
+2.国内长线送夺宝币的的短信
+3.多种支付方式，微信支付
+4.无线端的套页面
+5.短信日志
+6.了解M站的登录
+
+有status字段变更的都要加，日志表
+
+社会化营销 旅游+金融
+
+http://172.30.111.209/html/oneGrab/index.html
+zhangyi3(张毅-61322-2) 18:01:12
+黎叔 国内长线送夺宝币的那个短信的模板写一下
+lixinliang(黎新亮-61221-2-E1-24) 18:10:49
+尊敬的[昵称]，您的订单[订单号]已经完成出游，我们赠送5元夺宝币至您的途牛账号，您可以参与途牛旅游网的一元夺宝，海量大奖等您拥有。［途牛旅游网1.tuniu.com］
+1元夺宝增加楼层
+
+tinyint4 enum
+
+mysql 增加索引 key 和index应该都可以
+alter table  ip_address3_test  ADD  KEY `ip1` (`ip1`),
+  add KEY `ip2` (`ip2`),
+  add KEY `idx_city_1` (`city`),
+ add  KEY `idx_province_1` (`province`);
+
+alter table ip_address3 drop key `ip222`
+
+新的负载均衡的问题?和cas有撒关系呢。
+
+DATE_ATOM是干什么的。
+
+csdn微软技术 chinaunix linux技术 java iteye oracle itpub 软件技术论坛
+
+PHP unlink() 函数
+
+要注意图片的大小，不同的大小有时候需要不同的编辑
+首页广告图大小 640 240
+首页产品广告图 290 182
+产品图 555 285 （大图）
+下单页面 160 120 （小图）
+产品页详情 580 299
+
+IP库测试 ，产品详情页
