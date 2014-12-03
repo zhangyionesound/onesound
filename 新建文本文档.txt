@@ -837,3 +837,205 @@ wampp apache加rewrite规则 起不起来
 滚动异步加载
 
 我们以前会定义成 [[order|123456]] 大概这种，由web app 分别去解析跳转逻辑
+
+查看他人的中奖记录
+
+var recordpageId = 1;
+    var recordFlag = true;
+    var notpayFlag = true;
+    $('.more-record').on('click tap', function() {
+        if (recordFlag) {
+            $('.more-record').html('加载中。。');
+            recordFlag = false;
+            var uid = $('#uid').val();
+            var myUrl = '/bet/ajax/getUserBetRecord?p=' + recordpageId + '&uid=' + uid + '&wap=1';
+            var myData = {
+                page: ''
+            }
+            $.ajax({
+                url: myUrl,
+                //data: myData,
+                dataType: 'html',
+                success: function(returnValue) {
+                    if (returnValue) {
+                        $('#successList').append(returnValue);
+                        $('.more-record').html('加载更多。。');
+                        recordpageId = parseInt(recordpageId) + 1;
+                        recordFlag = true;
+                        $('.check-item').on('click', function() {
+                            $('.all-record').css('display', 'block');
+                        });
+                        $('.all-record .right-corner').on('click', function() {
+                            $('.all-record').css('display', 'none');
+                        });
+                    } else if (returnValue.noMore) {
+                        $('.more-record').html('无更多内容');
+                    } else {
+                        $('.more-record').html('无更多内容');
+                        //$('.more-record').html('重新加载。。');
+                        //recordFlag = true;
+                    }
+                }
+            });
+        }
+    });
+
+http://wiki.tuniu.org/pages/viewpage.action?pageId=10519739
+
+http://www.msucplus.com/accountsync/sso%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88
+这里没有回调，直接解密的，我们是回调确认
+
+$('#commentall').delegate('#more-record','click tap', function() { }); 苹果支持的
+chrome模拟器  
+
+rename table ip_address3 to ip_address3_bak_20141203
+reanme table ip_address3_test to ip_address3
+订单来源的标志
+
+支付成功返回
+
+分享
+
+
+        
+        $insideStr = '泰国
+韩国
+日本
+美国
+意大利
+法国
+斯里兰卡
+英国
+德国
+奥地利
+越南
+俄罗斯
+瑞士
+塞舌尔
+阿拉伯联合酋长国
+丹麦
+匈牙利
+波兰
+西班牙
+南非
+普吉
+首尔
+威尼斯
+曼谷
+东京
+巴黎
+伦敦
+清迈
+苏梅
+莫斯科
+大阪
+迪拜
+马尔代夫
+巴厘岛
+希腊
+土耳其
+荷兰
+巴西
+智利
+毛里求斯
+';
+        $array = $this->getArray($insideStr);
+        foreach ($array as $key=>$val){
+            if(!empty($val)){
+                $sql = "SELECT * FROM district_info WHERE name ='".$val."' AND del_flag = 0";
+                $result = Yii::app()->dbtg->createCommand($sql)->queryRow();
+                echo '<a href="http://www.tuniu.com/guide/d-',$result['uri'],'-',$result['id'],'" target="_blank" rel="nofollow">',$val,'</a>';
+            }
+        }
+        die();
+        
+        
+      var_dump(json_decode());  die();
+//        $countyid = 101010100;
+//        sleep(2);
+//    $url = 'http://m.weather.com.cn/atad/' . $countyid . '.html';
+//    $ch = curl_init();
+//    curl_setopt($ch, CURLOPT_URL, $url);
+//    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+//    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+//    //curl_setopt($ch, CURLOPT_REFERER, 'http://www.gfsswy.com/?q=http%3A%2F%2Fm.weather.com.cn%2Fatad%2F');
+//    $content = curl_exec($ch);
+//    
+//    if (strpos($content, '非常抱歉，网页无法访问') !== false || strpos($content, '302 Found') !== false) {
+//        //不缓存错误的数据
+//        $content = '';
+//        //todo添加提醒
+//    }else{
+//        
+//    }
+//    var_dump($content);die();
+        
+        $weather_url = Yii::app()->params['host']['guideApi'].'/guide/front/weatherforecast';
+        echo $weather_url;
+    	$requestData = array();
+        $requestData = array('poi_id' => '906','poi_name'=>'三亚');
+        var_dump($requestData);
+        $client = new RESTClient();
+        try {
+            $res = $client->get($weather_url, $requestData);
+        } catch (Exception $ex) {
+            var_dump($ex);
+        }
+        var_dump($res);die();
+        
+        
+        传输单宽 和 cookie
+$_server
+Array
+(
+    [SCRIPT_URL] => /ajax/locationchange/
+    [SCRIPT_URI] => http://www.zy.tuniu.org/ajax/locationchange/
+    [MIBDIRS] => D:/software/xampp/php/extras/mibs
+    [MYSQL_HOME] => \xampp\mysql\bin
+    [OPENSSL_CONF] => D:/software/xampp/apache/bin/openssl.cnf
+    [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+    [PHPRC] => \xampp\php
+    [TMP] => \xampp\tmp
+    [HTTP_HOST] => www.zy.tuniu.org
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [CONTENT_TYPE] => application/x-www-form-urlencoded;charset=UTF-8
+    [HTTP_REFERER] => http://www.zy.tuniu.org/tours/
+    [HTTP_COOKIE] => tuniu_partner=MTAxLDAsLDlmZDgyZThjYTZkNGMwMTlmZTUyNzdlYjJmNTcxYzQ1; p_phone_400=4007-999-999; tuniuuser_citycode=MTYwMg%3D%3D; tuniuuser_citycode=MjUwMA%3D%3D; tuniu_channel=MTAwLDAsZDdiY2U0NTViYjViMDFhNWExYzk1YTM2ZjZiNDEyY2Q%3D; tuniuuser_ip_citycode=MTYwMg==; Hm_lvt_dbdbb8d9c6cd72876c254897549e524b=1417051845,1417418966,1417605129,1417605795; bdshare_firstime=1417605129022; Hm_lpvt_dbdbb8d9c6cd72876c254897549e524b=1417606723; PHPSESSID=vdfkn6l79dck9rsv0olpgrt1j6
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [PATH] => C:\Program Files (x86)\CollabNet\Subversion Client;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Verint\Playback\;D:\software\MySQL\bin;D:\software\SVN\bin;C:\Program Files\TortoiseGit\bin;
+    [SystemRoot] => C:\Windows
+    [COMSPEC] => C:\Windows\system32\cmd.exe
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    [WINDIR] => C:\Windows
+    [SERVER_SIGNATURE] => <address>Apache/2.4.2 (Win32) OpenSSL/1.0.1c PHP/5.4.4 Server at www.zy.tuniu.org Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.2 (Win32) OpenSSL/1.0.1c PHP/5.4.4
+    [SERVER_NAME] => www.zy.tuniu.org
+    [SERVER_ADDR] => 127.0.0.1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 127.0.0.1
+    [DOCUMENT_ROOT] => D:/V3stable
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => D:/V3stable
+    [SERVER_ADMIN] => postmaster@localhost
+    [SCRIPT_FILENAME] => D:/V3stable/yii.php
+    [REMOTE_PORT] => 51506
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => r=ajax/locationchange/
+    [REQUEST_URI] => /ajax/locationchange/
+    [SCRIPT_NAME] => /ajax/locationchange/
+    [PHP_SELF] => /ajax/locationchange/
+    [REQUEST_TIME_FLOAT] => 1417606722.887
+    [REQUEST_TIME] => 1417606722
+)   
+        http://docs.hhvm.com/manual/en/hack.async.php
+        
+        
+    
