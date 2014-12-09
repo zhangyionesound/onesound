@@ -1038,4 +1038,160 @@ Array
         http://docs.hhvm.com/manual/en/hack.async.php
         
         
-    
+“葵花宝典”&&“九阴真经“
+http://wulijun.github.io/php-the-right-way/（:知道怎么学
+http://www.joyphper.net/article/201401/269.html（:轮子最讨厌
+
+本次主题“耗时耗力”，只有大家“身体力行”才能“其乐无穷”。
+
+•	暴力的路由
+o	https://github.com/chriso/klein.php
+•	完美的数据迁移
+o	https://github.com/davedevelopment/phpmig
+•	一劳永逸的包管理
+o	https://getcomposer.org/doc/00-intro.md
+•	“发酵”的单元测试
+o	https://phpunit.de/ （：改版很久了。
+•	BigCommerce的产品
+o	https://github.com/chrisboulton/php-resque （：另类的redis应用
+
+    先把数据源搞清楚
+
+一元夺宝首页 产品图 （接口 性能）
+
+
+排队认领下composer
+之前项目用laravel的时候用过一些，总结分享下，yii2也开始支持
+
+旅游达人 + 产品接口
+
+yum httpd 
+suffer 是什么意思
+
+加上钱数 周一申请权限
+
+业务主用：亿美
+备用：梦网
+
+营销的短信用 梦网的 
+小橙子 
+2014/12/5 9:42:18
+edm还在问
+9:55:30
+小橙子 
+2014/12/5 9:55:30
+邮箱业务和edm都是用  splio 的
+
+修改头像，分享
+
+查每天的金额 会员参与人次
+
+http://open.weibo.com/wiki/WAP%E7%AB%99%E6%8E%A5%E5%85%A5
+https://open.weixin.qq.com
+
+会员中心，我的夺宝 只加在hsww，tuniuV3的没有
+D:\wamp\www\tuniuV3-stable\WEB-INF\html\templates\nav_left_user.html
+
+http://img3.tuniucdn.com/site/js/tuniu/v3/city_info.js
+
+http://new.suning.com/ 新奇特的产品
+
+http://www.tuniu.com/tuniu-status
+
+登录查询
+
+https://github.com/xuqingfeng/whichIP
+
+http://www.tuniu.com/guide/d-sanya-906/?refreshFileCache=1&showtest=1
+
+ $request_data = array(
+//                    'func' => 'createPayOrder',
+//                    'params' => array(
+//                        'user_id' => Yii::app()->tuniuUser->userid,
+//                        'sum_amount' => $needPay,
+//                        'is_batch' => 0,
+//                        'order_info' => array($insertpayment_id =>
+//                            array('order_id' => $insertpayment_id, 'amount' => $needPay, 'clear_time' => '0000-00-00 00:00:00'))
+//                    )
+//                );
+                
+
+//                $url='http://172.30.121.239:8010/ugv/gateway/1';
+//                $fields=array(
+//                    'appId' => '0',
+//                    'amount' => '390',
+//                    'subject' => '预定旅产品支付',
+//                    'transId' => '11404897',
+//                    'desc' => '预定旅产品支付',
+//                    'userId' => '2657563',
+//                );
+//                foreach ($fields as $key => $value) {
+//                    $str .= $key.'='.$value.'&';
+//                }
+//                $ch = curl_init ();
+//                // print_r($ch);
+//                curl_setopt ( $ch, CURLOPT_URL, $url );
+//                curl_setopt ( $ch, CURLOPT_POST, 1 );
+//                curl_setopt ( $ch, CURLOPT_HEADER, 0 );
+//                curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, 1 );
+//                curl_setopt ( $ch, CURLOPT_POSTFIELDS, $str );
+//                $return = curl_exec ( $ch );
+//                curl_close ( $ch );
+//                var_dump($return);die();
+//                $request_data = array(
+//                    'appId' => 0,
+//                    'amount' => $needPay,
+//                    'subject' => '预定旅产品支付',
+//                    'transId' => $insertpayment_id,
+//                    'desc' => '预定旅产品支付',
+//                    'userId' => Yii::app()->tuniuUser->userid,
+
+
+1.今天要上线的：（1）JS （2）bet 前台的修改 后台的统计 增加筛选上线的产品
+2.这周待完成的 夺宝wap端（支付和改bug，另外支付怎么测试） IP纯真库
+
+CSRF
+各位，网站现在的CSRF问题非常严重，有很多GET请求都能修改数据，这应该是被严厉禁止的。
+另外，有些修改用户数据的接口虽然表面上是通过POST请求的，但实际上GET请求也能通过，这点也请注意。
+原来有个CodeIgniter框架的。
+if(Yii::app()->request->getIsPostRequest()){
+
+
+netscaler加了两个SNIP
+
+http://www.tuniu.com//rss.php
+
+apache 里面有个model remote address XFROWARD 知道了。马上修正一下。上周netscaler加了两个SNIP，把1元夺宝这个项目忘记了
+
+
+HI ，问下，wap端有什么方法让页面返回了没用吗？比如 下单成功之后 不想让他可以返回上个表单，免得重复下单
+
+可以改变历史记录
+
+history replace
+
+Javascript刷新页面的几种方法：
+1 history.go(0)
+2 location.reload()
+3 location=location
+4 location.assign(location)
+5 document.execCommand('Refresh')
+6 window.navigate(location)
+7 location.replace(location)
+8 document.URL=location.href 
+
+netstap 和nginx
+
+用ajax的时候 要考虑系统并发量
+
+ALTER TABLE `table_name` ADD INDEX index_name ( `column1`, `column2`, `column3` ) 
+
+更新的操作一定要注意原子性，update set a=a+XX; 
+
+镜像， 行级锁 ， select 用的镜像数据 update + status 用的是status ，所以一定要用原子性的操作
+
+事务 read repltable 可重复读的
+read commit 是每次读的都是commit之后的数据
+为支付加上双重保险。
+
+用户id的页面要加密 那么ajax请求怎么加密呢？
