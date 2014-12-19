@@ -1195,3 +1195,88 @@ read commit 是每次读的都是commit之后的数据
 为支付加上双重保险。
 
 用户id的页面要加密 那么ajax请求怎么加密呢？
+
+轻微
+发现服务器启用了TRACE Method
+58.68.255.47
+http://1.tuniu.com:80/TRACE_test
+
+https://b.alipay.com/order/techService.htm 支付宝对接
+
+http://phoenix.tuniu.org/wiki/platform-message
+
+
+function ShareTofriends(img_url,link,title,desc) { 
+    alert(1);
+        //在HTML页面内嵌入这一段JS代码
+    if(window.WeixinJSBridge)
+    {
+        if( typeof(img_url) == 'undefined' || img_url == "")
+        {
+            var img_url = "http://m.tuniucdn.com/filebroker/cdn/snc/55/f7/55f7e8ef2475d2e46a984b63372f3d2f_w800_h0_c0_t0_w240_h135_c1_t0.png";
+        }
+        if( typeof(link) == 'undefined' || link == "")
+        {
+            var img_url = "http://www.tuniu.com/";
+        }
+        if ( typeof(title) == 'undefined' || title == "" )
+        {
+            var title = '点开看一下吧!';
+        }
+        if( typeof(desc) == 'undefined' || desc == "")
+        {
+            var desc = "wendoscoo";
+        }
+        WeixinJSBridge.invoke('shareTimeline',{
+            "img_url": img_url,
+            //"img_width": "640",
+            //"img_height": "640",
+            "link": link,
+            "desc": desc,
+            "title": title
+        },function(res){
+            // 返回res.err_msg,取值
+            // share_timeline:cancel 用户取消
+            // share_timeline:fail　发送失败
+            // share_timeline:ok 发送成功
+            alert(res.err_msg);
+            WeixinJSBridge.log(res.err_msg);
+        });
+        return false;
+    }
+    else
+    {
+        alert("请通过微信分享文章:)");
+    }
+};
+enum 做DB迁移有些不支持，java会把tinyint(1)作为布尔值，所以我一般用tinyint(2)
+
+http://1.tuniu.com/bet/pay/cart?pid=12&bet_amount=2&pnoid=13%22%3E%3Ciframe%20onload=alert%281%29%3E 不要信任浏览器里面的输入，不要直接输出浏览器的输入
+svg xml
+
+sqlmap 注入工具
+360鹰眼
+nginx-lua-waf 正在采购waf了  imperva的waf在全球是no.1  
+http://drops.wooyun.org/tips/1955
+http://search.aol.com/aol/search?s_it=topsearchbox.search&s_chn=prt_aol20&v_t=comsearch&q=filetype%3Alst+password
+
+@段爷 通过简单的Google Hacking技术能拿到一些常见的社工库
+
+Burp Scanner 扫描xss漏洞
+
+什么时候根据前端属性去判断，什么时候根据后台搜索。
+
+http://blog.knownsec.com/wp-content/uploads/2014/07/THE-ULTIMATE-XSS.pdf
+http://blog.knownsec.com/wp-content/uploads/2014/07/%E7%BB%99%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84%E7%BB%88%E6%9E%81XSS%E9%98%B2%E6%8A%A4%E5%A4%87%E5%BF%98%E5%BD%95.pdf
+
+《DevOps 诊断-Linux运维最佳实践》
+ajax 要限制 刷新次数或者ip限制
+
+页面多个js加载的方法
+http://www.phper163.com/archives/209
+
+微信支付分为 需要调取网页的支付 使用API JS的方式，不需要网页的方式，使用 Native(原生)支付。
+
+php dead code detector(https://github.com/sebastianbergmann/phpdcd)
+
+http://www.freebuf.com/tools/54221.html
