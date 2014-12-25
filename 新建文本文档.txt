@@ -1294,3 +1294,5 @@ curl_setopt($curl, CURLOPT_TIMEOUT,60);
 netstat -natp |grep pid
 
 underscore 模板
+
+CHtmlPurifier yii自己挤成了的 在yii base中申明的类
