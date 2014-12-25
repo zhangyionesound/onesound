@@ -1280,3 +1280,17 @@ http://www.phper163.com/archives/209
 php dead code detector(https://github.com/sebastianbergmann/phpdcd)
 
 http://www.freebuf.com/tools/54221.html
+
+链接记得用 ssl.tuniucdn.com
+
+社工库
+
+mysql中删除表记录delete from和truncate table的用法区别
+replace into
+
+set_time_limit(120); 对脚本没用 curl需要设置超时时间
+curl_setopt($curl, CURLOPT_TIMEOUT,60);
+
+netstat -natp |grep pid
+
+underscore 模板
